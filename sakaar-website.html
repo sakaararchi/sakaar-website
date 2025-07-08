@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sakaar Architects & Engineers</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #1f1f1f;
+      color: white;
+    }
+    .whatsapp-float {
+      position: fixed;
+      width: 50px;
+      height: 50px;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      border-radius: 50%;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.3s ease;
+    }
+
+    .whatsapp-float:hover {
+      transform: scale(1.1);
+    }
+
+    .whatsapp-float img {
+      width: 24px;
+      height: 24px;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="text-center py-10">
+    <h1 class="text-4xl font-bold">Sakaar Architects & Engineers</h1>
+    <p class="text-lg mt-2 italic">Thought to Form</p>
+  </header>
+
+  <!-- Projects Section -->
+  <section class="px-6 py-12 bg-gray-800" id="projects">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl font-bold mb-6 text-center">Our Projects</h2>
+      <div class="grid md:grid-cols-3 gap-6" data-aos="fade-up">
+        <img src="1000499931.jpg" alt="Project 1" class="rounded-xl shadow-lg" />
+        <img src="1000499934.jpg" alt="Project 2" class="rounded-xl shadow-lg" />
+        <img src="1000499936.jpg" alt="Project 3" class="rounded-xl shadow-lg" />
+        <img src="1000499932.jpg" alt="Project 4" class="rounded-xl shadow-lg" />
+        <img src="1000499940.jpg" alt="Project 5" class="rounded-xl shadow-lg" />
+        <img src="1000499939.jpg" alt="Project 6" class="rounded-xl shadow-lg" />
+        <img src="1000499941.jpg" alt="Project 7" class="rounded-xl shadow-lg" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Services -->
+  <section class="bg-gray-900 text-white py-16 px-6">
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
+      <div data-aos="fade-up">
+        <h2 class="text-3xl font-semibold mb-4">Contact</h2>
+        <p class="mb-2"><strong>Ar. Gajanan Suryawanshi</strong> – B. Arch<br>📞 9503366496</p>
+        <p class="mb-4">@sakaar_architects_engineers</p>
+        <p class="mb-2"><strong>Er. Shubham Suryawanshi</strong> – BE Civil<br>📞 8806470583</p>
+        <p class="mt-6"><strong>Email:</strong> <a href="mailto:Sakaart2f@gmail.com" class="underline">Sakaart2f@gmail.com</a></p>
+        <p><strong>Website:</strong> <a href="http://www.sakaart2f.com" class="underline" target="_blank">www.sakaart2f.com</a></p>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="100">
+        <h2 class="text-3xl font-semibold mb-4">Services</h2>
+        <ul class="space-y-1">
+          <li>• Architectural Design & Planning</li>
+          <li>• 3D Design</li>
+          <li>• Sanctioning & Liaisoning</li>
+          <li>• Vastu Consultation</li>
+          <li>• Residential & Commercial Construction</li>
+          <li>• Estimation & Costing</li>
+          <li>• Renovation & Interior Works</li>
+          <li>• Site Execution & Supervision</li>
+        </ul>
+        <div class="mt-6">
+          <h3 class="text-xl font-semibold mb-2">Offices</h3>
+          <p>📍 Near S.N. High School, Ambejogai Road, Latur - 413512</p>
+          <p>📍 Blue Ridge Orion T15, Phase 1, Hinjawadi, Pune - 411057</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Google Maps Embed -->
+  <section class="py-10 bg-gray-800">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-6 text-center">Our Location</h2>
+      <div class="overflow-hidden rounded-xl shadow-lg" data-aos="fade-up">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.2431658336093!2d73.727!3d18.638!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2ba257a3c5d11%3A0x2958e7a9d41e6c91!2sBlue%20Ridge%20Township%2C%20Hinjawadi%2C%20Pune!5e0!3m2!1sen!2sin!4v1720438123456"
+          width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- WhatsApp -->
+  <a href="https://wa.me/919503366496" class="whatsapp-float" target="_blank" title="Chat with us on WhatsApp">
+    <img src="https://img.icons8.com/ios-filled/50/ffffff/whatsapp--v1.png" alt="WhatsApp" />
+  </a>
+
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
